@@ -1,0 +1,178 @@
+.dd{
+
+	background-color: lightcoral;
+	color: whitesmoke;
+	width: fit-content;
+}
+.dd:hover{
+
+	background-color: whitesmoke;
+	color: lightcoral;
+}
+.con{
+	width: fit-content;
+}
+.va{
+	background-color: yellow;
+	color: red;
+	width: fit-content;
+	text-align: center;
+}
+.va:hover{
+	background-color: red;
+	color: yellow;
+}
+.nnnn{
+      color: blacks;
+}
+.cc{
+	background-color: yellow;
+	color: red;
+      text-align: center;
+      width: fit-content;
+}
+.cc:hover{
+	background-color: red;
+	color: blue;
+}
+.sub{
+	color: indianred;
+}
+.font{
+	color: black;
+}
+.garena{
+	color: royalblue;
+}
+.file{
+	color: darkgreen;
+	font-style: oblique;
+}
+.din{
+	color: darkblue;
+}
+.c1{
+	background-color: black;
+	color: yellow;
+	width: fit-content;
+}
+.con{
+	width: 1334px;
+	background-color: darkblue;
+	height: 20px;
+	text-align: center;
+}
+.body{
+	background-color: #f4f4f4;
+	color: #333;
+	line-height: 1.6em;
+	margin: 0;
+	font-family: tahoma;
+	font-size: 16px;
+}
+.vain{
+
+	width: fit-content;
+	margin:auto;
+	overflow: hidden;
+	color: beige;
+}
+.container h1{
+	text-align: center;
+	color: darkred;
+}
+
+#header1{
+
+	background-color: red;
+	color: khaki;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: greenyellow;
+}
+
+#navbar{
+
+	background-color: #333;
+	color:#fff;
+}
+
+#navbar ul{
+
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+
+	display: inline;
+
+}
+#navbar a{
+
+	color: #fff;
+	text-decoration: none;
+	font-style: 18px;
+	padding-right: 15px;
+}
+#showcase{
+      background-position: centre right;
+      min-height:200px;
+      margin-bottom: 30px;
+      text-align: centre;
+}
+
+#SHOWCASE h2{
+
+	color: #fff;
+	fontsize: 50px;
+	padding-top: 30px;
+}
+
+#main{
+
+	float:left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+.b1{
+	letter-spacing:2px;
+	width: 25%;
+	background-color: yellow;
+	color: darkred;
+	border-style: double;
+	border-color: black;
+	border-style: dashed;
+	box-sizing:content-box;
+	stroke: black;
+	width: fit-content;
+}
+.b1:hover{
+	color: white;
+	background-color: blue;
+}
+
+#sidebar{
+
+	float:right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#foot1{
+	background-color: #333;
+	color: #fffr;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+@media(max-width: 600px){
+
+	#sidebar{
+		width: 100%;
+		float:none;
+	}
+}
